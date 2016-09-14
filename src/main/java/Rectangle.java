@@ -6,8 +6,7 @@ public class Rectangle {
   private int mWidth;
   private static List<Rectangle> instances = new ArrayList<Rectangle>();
 
-
-  public Rectangle(int length, int width){
+  public Rectangle(int length, int width) {
     mLength = length;
     mWidth = width;
     instances.add(this);
